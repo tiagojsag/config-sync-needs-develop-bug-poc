@@ -1,0 +1,58 @@
+{
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "permissions": [
+    {
+      "action": "api::contextual-risk-category.contextual-risk-category.find"
+    },
+    {
+      "action": "api::contextual-risk-category.contextual-risk-category.findOne"
+    },
+    {
+      "action": "api::contextual-risk.contextual-risk.find"
+    },
+    {
+      "action": "api::contextual-risk.contextual-risk.findOne"
+    },
+    {
+      "action": "api::pcb-category.pcb-category.find"
+    },
+    {
+      "action": "api::pcb-category.pcb-category.findOne"
+    },
+    {
+      "action": "api::pcb.pcb.find"
+    },
+    {
+      "action": "api::pcb.pcb.findOne"
+    },
+    {
+      "action": "api::project.project.create"
+    },
+    {
+      "action": "api::project.project.delete"
+    },
+    {
+      "action": "api::project.project.find"
+    },
+    {
+      "action": "api::project.project.findOne"
+    },
+    {
+      "action": "api::project.project.update"
+    },
+    {
+      "action": "plugin::users-permissions.auth.changePassword"
+    },
+    {
+      "action": "plugin::users-permissions.user.find"
+    },
+    {
+      "action": "plugin::users-permissions.user.findOne"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    }
+  ]
+}
