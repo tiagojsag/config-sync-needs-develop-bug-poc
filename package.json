@@ -1,10 +1,10 @@
 {
-  "name": "tnc-human-rights-tool-api",
+  "name": "bug-poc",
   "version": "0.1.0",
-  "description": "TNC Human Rights Tool API",
+  "description": "bug poc",
   "packageManager": "yarn@3.6.3",
   "scripts": {
-    "develop": "config-sync import -y && strapi develop",
+    "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
